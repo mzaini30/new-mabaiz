@@ -3,10 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/tailwind': ^1.0.0
   astro: ^1.1.5
+  astro-github: ^0.0.2
   prettier-plugin-astro: ^0.5.4
 
 dependencies:
   astro: 1.1.5
+  astro-github: 0.0.2
   prettier-plugin-astro: 0.5.4
 
 devDependencies:
@@ -647,6 +649,10 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       tslib: 2.4.0
+    dev: false
+
+  /astro-github/0.0.2:
+    resolution: {integrity: sha512-2UQwopr5fEkI+5BWXojCYB1C6wDNAhJOcatrSZrQvBCL1IIAexkR+PORLm8oyQ7kDORyyUekB0KBGYW0n+kPBQ==}
     dev: false
 
   /astro/1.1.5:
